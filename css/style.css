@@ -1,0 +1,100 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&family=Ubuntu:wght@300;400;500&display=swap');
+</style>
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*HEADER STARTS*/
+header{
+    background-color: #0f2f44;
+    color: white;
+    padding: 18px;
+
+}
+header .row{
+    justify-content: space-between;
+
+}
+
+
+
+/*HEADER ENDS*/
+/*NAVBER STARS*/
+nav .logo{
+    width: 30%;
+}
+nav .manu{
+    width: 70%;
+}
+nav .manu{
+    text-align: right;
+}
+nav .manu li{
+    display: inline-block;
+}
+nav .manu li a{
+    display: inline-block;
+    font-weight: 500px;
+    color: #222222;
+    padding: 40px 12px;
+    transition: 0.5s;
+}
+nav .manu li:hover a{
+background-color: #ffc712;
+
+}
+
+nav .row{
+    align-items: center;
+
+}
+
+nav .manu ul li span{
+    border: 1px solid black;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+/*NAVBER ENDS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
